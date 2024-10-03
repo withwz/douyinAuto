@@ -25,5 +25,6 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
+  srcDir: './', // 设置为根目录
   base: '/'
 })
