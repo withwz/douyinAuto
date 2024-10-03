@@ -3,27 +3,28 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Douyin Auto",
-  description: "A VitePress Site",
+  description: "抖音自动化脚本",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '运营Note', link: '/作品发布' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '运营Note',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '作品发布', link: '/作品发布' },
+          { text: '作品评论', link: '/作品评论' },
+          { text: '私信回复', link: '/私信回复' }
         ]
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    // socialLinks: [
+    //   { icon: 'github', link: 'https://github.com/withwz/douyinAuto' }
+    // ]
   },
   srcDir: './', // 设置为根目录
   base: '/'

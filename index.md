@@ -4,22 +4,16 @@ layout: home
 
 hero:
   name: "Douyin Auto"
-  text: "A VitePress Site"
-  tagline: My great project tagline
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  tagline: 抖音自动化脚本
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: douyin_upload
+    details: 抖音自动发布助手，自动视频发布，批量执行发布任务，快速发布视频
+    link: https://github.com/withwz/douyin_upload
+  - title: douyin_comment
+    details: 抖音自动评论，配置热搜话题，自动浏览作品并评论
+    link: https://github.com/withwz/douyin_comment
+  - title: 私信自动回复
+    details: 待开发
+    # link: "https://vitepress.dev/zh/reference/default-theme-layout"
 ---
-
